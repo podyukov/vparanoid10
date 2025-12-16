@@ -1,0 +1,9 @@
+resources:
+- ../base
+
+namePrefix: prod-
+
+labels:
+- includeSelectors: true
+  pairs:
+    environment: prod
